@@ -17,8 +17,11 @@ bot.on('message', (msg) => {
     if(msg.text=='hi'||msg.text=='Hi'||msg.text=='HI') {
         bot.sendMessage(chatId, 'namovakam');
     }
+    else if(msg.text == 'ith thettalle chechi' ||msg.text == 'Ith thettalle chechi' ||msg.text == 'ith thettalle chechi?' ||msg.text == 'Ith thettalle chechi?') {
+        bot.sendMessage(chatId, 'Thettu cheyyathavarayi aarumilla Gopu');
+    }
     else {
    
     // send a message to the chat acknowledging receipt of their message
-    bot.sendMessage(chatId, 'bhag bsdk');
+    bot.sendMessage(chatId, 'ayyo kutta');
     }});
