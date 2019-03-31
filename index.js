@@ -20,6 +20,9 @@ bot.on('message', (msg) => {
     else if(msg.text == 'ith thettalle chechi' ||msg.text == 'Ith thettalle chechi' ||msg.text == 'ith thettalle chechi?' ||msg.text == 'Ith thettalle chechi?') {
         bot.sendMessage(chatId, 'Thettu cheyyathavarayi aarumilla Gopu');
     }
+    else if(msg.text == 'Roses are red violets are blue') {
+        bot.sendMessage(chatId, 'Saale kuthe teri maa ki chuu')
+    }
     else {
    
     // send a message to the chat acknowledging receipt of their message
