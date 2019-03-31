@@ -14,8 +14,11 @@ bot.setWebHook(externalUrl + ':443/bot' + token);
 
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;
-    console.log(msg)
+    if(msg.text == "hi"|| msg.text == "Hi" || msg.text == "HI") {
+        bot.sendmessage(chatId, 'namovakam');
+    }
+    else{
    
     // send a message to the chat acknowledging receipt of their message
     bot.sendMessage(chatId, 'bhag bsdk');
-  });
+    }});
