@@ -23,6 +23,9 @@ bot.on('message', (msg) => {
     else if(msg.text == 'Roses are red violets are blue') {
         bot.sendMessage(chatId, 'Saale kuthe teri maa ki chuu')
     }
+    else if(msg.text == 'Kattile mainaye pattu padippichatharu') {
+        bot.sendMessage(chatId, 'Ninte thantha')
+    }
     else {
    
     // send a message to the chat acknowledging receipt of their message
