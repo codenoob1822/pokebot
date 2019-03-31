@@ -14,10 +14,10 @@ bot.setWebHook(externalUrl + ':443/bot' + token);
 
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;
-    if(msg.text == "hi"||msg.text == "Hi"||msg.text == "HI") {
+    if(msg.text=='hi'||msg.text=='Hi'||msg.text=='HI') {
         bot.sendmessage(chatId, 'namovakam');
     }
-    else{
+    else {
    
     // send a message to the chat acknowledging receipt of their message
     bot.sendMessage(chatId, 'bhag bsdk');
